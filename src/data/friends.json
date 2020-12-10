@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2017/06/24/02/56/art-2436545_1280.jpg",
+    "name": "Alexis",
+    "isOnline": false,
+    "id": 4563
+  },
+  {
+    "avatar": "https://www.styleinterest.com/wp-content/uploads/2018/07/103210618-blue-hair-.jpg",
+    "name": "Yuri",
+    "isOnline": true,
+    "id": 9375
+  },
+  {
+    "avatar": "https://cdn.pixabay.com/photo/2016/05/23/23/32/human-1411499_1280.jpg",
+    "name": "Albus",
+    "isOnline": true,
+    "id": 6660
+  },
+  {
+    "avatar": "https://www.menshairstylestoday.com/wp-content/uploads/2018/12/Best-Beard-Ideas.jpg",
+    "name": "Chrissy",
+    "isOnline": false,
+    "id": 4962
+  },
+  {
+    "avatar": "https://lh3.googleusercontent.com/proxy/lhM2HtRlDv2DvCeXPPSQ-_cvKmpqNzR5jh0rhkMsU-uhV8NidsYMsL8ClYJFbjxXBcV8ab_08qHodtIPePDoYcs9Z-LN8bn8wioc6o81AvTxqR6ZJPB5pChOOM0_rAj4pYRcy9FLyeEbYwkv-A",
+    "name": "Patricia",
+    "isOnline": true,
+    "id": 3967
+  }
+]
