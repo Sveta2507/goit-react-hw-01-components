@@ -1,12 +1,7 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sveta2507/goit-react-hw-01-components.git"
-  },
-  "homepage": "",
+  "homepage": "https://github.com/Sveta2507/goit-react-hw-01-components",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

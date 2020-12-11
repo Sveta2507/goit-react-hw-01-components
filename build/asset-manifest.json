@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Sveta2507/goit-react-hw-01-components/static/css/main.332e5caa.chunk.css",
+    "main.js": "/Sveta2507/goit-react-hw-01-components/static/js/main.d9ccfef1.chunk.js",
+    "main.js.map": "/Sveta2507/goit-react-hw-01-components/static/js/main.d9ccfef1.chunk.js.map",
+    "runtime-main.js": "/Sveta2507/goit-react-hw-01-components/static/js/runtime-main.1ccb5f75.js",
+    "runtime-main.js.map": "/Sveta2507/goit-react-hw-01-components/static/js/runtime-main.1ccb5f75.js.map",
+    "static/js/2.cf9678f1.chunk.js": "/Sveta2507/goit-react-hw-01-components/static/js/2.cf9678f1.chunk.js",
+    "static/js/2.cf9678f1.chunk.js.map": "/Sveta2507/goit-react-hw-01-components/static/js/2.cf9678f1.chunk.js.map",
+    "index.html": "/Sveta2507/goit-react-hw-01-components/index.html",
+    "static/css/main.332e5caa.chunk.css.map": "/Sveta2507/goit-react-hw-01-components/static/css/main.332e5caa.chunk.css.map",
+    "static/js/2.cf9678f1.chunk.js.LICENSE.txt": "/Sveta2507/goit-react-hw-01-components/static/js/2.cf9678f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ccb5f75.js",
+    "static/js/2.cf9678f1.chunk.js",
+    "static/css/main.332e5caa.chunk.css",
+    "static/js/main.d9ccfef1.chunk.js"
+  ]
+}
