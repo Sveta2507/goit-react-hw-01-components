@@ -1,0 +1,56 @@
+.section {
+  background-color: #33cc99;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: #00ffcc;
+  box-shadow: 0 3px 15px 3px #006666;
+  margin: 0 auto;
+  max-width: 70%;
+}
+.title {
+  /* display: ${(props) => (props.titleText ? 'flex' : 'none')}; */
+  color: grey;
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: 69px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.statList {
+  display: flex;
+  width: 100%;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  /* background-color: ${(props) => props.color}; */
+}
+
+.spanLabel {
+  color: white;
+  line-height: 20px;
+}
+
+.spanLabel {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}

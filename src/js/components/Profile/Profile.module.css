@@ -1,0 +1,78 @@
+.profileDiv {
+  background-color: #33cc99;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+}
+
+.profileWrapper {
+  box-shadow: 0 3px 15px 3px #006666;
+  min-height: 300px;
+  min-width: 250px;
+}
+
+.profileDescription {
+  background-color: #00ffcc;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileName {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profileTag {
+  color: black;
+}
+
+.profileImg {
+  margin-bottom: 20px;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+}
+
+
+.profileList {
+  border: 1px solid grey;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  background-color: #00cc99;
+}
+
+.listItem {
+  flex-direction: column;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 33%;
+}
+
+.listItem:not(:last-child) {
+    border-right: 1px solid green;
+}
+
+
+.label {
+  color: black;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-weight: 1000;
+  font-size: 15px;
+}
+
+.quantity {
+  font-weight: 1000;
+  line-height: 1.5;
+  color: black;
+}

@@ -1,18 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import FriendsItem from './FriendsItem.js';
-
-const List = styled.ul`
-  background-color: #33cc99;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
-`;
+import React from "react";
+import PropTypes from "prop-types";
+import FriendsItem from "./FriendsItem.js";
+import classes from "./Friends.module.css";
 
 const Friends = ({ friends, noAvatar }) => (
-  <List>
+  <ul className={classes.friendsList}>
     {friends.map(({ avatar, name, isOnline, id }) => (
       <FriendsItem
         avatar={avatar}
@@ -23,7 +15,7 @@ const Friends = ({ friends, noAvatar }) => (
         noAvatar={noAvatar}
       />
     ))}
-  </List>
+  </ul>
 );
 
 Friends.propTypes = {

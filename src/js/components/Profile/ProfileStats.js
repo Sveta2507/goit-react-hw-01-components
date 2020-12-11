@@ -1,24 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import ProfileStatsItem from './ProfileStatsItem';
-
-const List = styled.ul`
-  border: 1px solid grey;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  justify-content: space-between;
-  display: flex;
-  background-color: #00cc99;
-`;
+import React from "react";
+import PropTypes from "prop-types";
+import ProfileStatsItem from "./ProfileStatsItem";
+import classes from "./Profile.module.css";
 
 const ProfileStats = ({ stats }) => (
-  <List>
+  <ul className={classes.profileList}>
     {Object.entries(stats).map((entry, index) => (
       <ProfileStatsItem key={index} label={entry[0]} quantity={entry[1]} />
     ))}
-  </List>
+  </ul>
 );
 
 ProfileStats.propTypes = {
